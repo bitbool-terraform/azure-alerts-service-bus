@@ -3,7 +3,7 @@
 
 ```hcl
 module "azure-alerts-servicebus" {
-  source = "../../bitbool-terraform/azure-alerts-servicebus"
+  source = "../../bitbool-terraform/azure-alerts-service-bus"
 
   name             = module.azure-servicebus.name
   resource_group   = var.resource_group
